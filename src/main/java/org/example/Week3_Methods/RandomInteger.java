@@ -1,4 +1,4 @@
-package org.example.Week3;
+package org.example.Week3_Methods;
 
 import java.util.Random;
 

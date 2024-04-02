@@ -1,4 +1,4 @@
-package org.example.Week1;
+package org.example.Week1_If_Statements;
 
 public class temp {
     public static void main(String[] args) {

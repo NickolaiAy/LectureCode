@@ -1,4 +1,4 @@
-package Week7;
+package org.example.Week6_Exceptions;
 
 import java.io.*;
 import java.util.ArrayList;

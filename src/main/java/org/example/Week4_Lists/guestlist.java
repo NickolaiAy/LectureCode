@@ -1,4 +1,4 @@
-package org.example.Week5;
+package org.example.Week4_Lists;
 
 import java.util.ArrayList;
 import java.util.Scanner;

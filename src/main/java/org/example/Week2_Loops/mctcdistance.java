@@ -1,4 +1,4 @@
-package org.example.Week2;
+package org.example.Week2_Loops;
 import java.util.Scanner;
 public class mctcdistance {
 /* Resources
