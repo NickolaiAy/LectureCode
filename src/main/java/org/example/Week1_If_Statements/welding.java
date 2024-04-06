@@ -1,4 +1,4 @@
-package org.example.Week2_Loops;
+package org.example.Week1_If_Statements;
 
 import java.util.Scanner;
 
