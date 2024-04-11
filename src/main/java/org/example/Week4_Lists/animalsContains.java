@@ -9,7 +9,7 @@ public class animalsContains {
         animals.add("Lion");
         animals.add("Tiger");
         animals.add("Bear");
-        if (animals.contains("Bear")) {
+        if (animals.contains("Bear")) { //checks if animals list contains bear
             System.out.println("The list contains a bear");
         } else {
             System.out.println("No bear in this list");

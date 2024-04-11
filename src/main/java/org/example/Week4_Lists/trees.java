@@ -12,19 +12,19 @@ public class trees {
         trees.add("Elm");
         trees.add("Aspen");
         trees.add(2,"Palm");
-        System.out.println("Tree at index 1 is " + trees.get(1));
+        System.out.println("Tree at index 1 is " + trees.get(1)); //Gets the tree at index 1 which is a Oak tree
 
-        for (String tree: trees) {
+        for (String tree: trees) { //iterates through all the trees
             System.out.println(tree);
         }
         trees.remove("Oak");
         trees.remove(0);
         System.out.println(trees);
 
-        if (trees.contains("Aspen")) {
+        if (trees.contains("Aspen")) { //checks if aspen is still in the list
             System.out.println("Tree List contains Aspen");
         }
-        int numberOfTrees = trees.size();
+        int numberOfTrees = trees.size(); //checks current number of trees
         System.out.println("There are " + numberOfTrees + " trees in the list.");
     }
 }

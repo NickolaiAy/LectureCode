@@ -9,7 +9,7 @@ public class animalsClear {
         animals.add("Lion");
         animals.add("Tiger");
         animals.add("Bear");
-        animals.clear();
+        animals.clear(); //clears entire list of animals
         System.out.println(animals);
     }
 }

@@ -11,8 +11,8 @@ public class animalsEmpty {
         animals.add("Bear");
         System.out.println(animals);
         System.out.println("Is the list empty? " + animals.isEmpty());
-        animals.clear();
+        animals.clear(); //Clears all caches data in the list
         System.out.println(animals);
-        System.out.println("Is the list empty? " + animals.isEmpty());
+        System.out.println("Is the list empty? " + animals.isEmpty()); //checks if list is empty
     }
 }
