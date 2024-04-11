@@ -9,9 +9,9 @@ public class AverageTestScoresSimpleLoop {
         double testScoreSum = 0.0;
         double testScoreAverage;
 
-        for (int test = 1; test <= numberOfTests; test++) {
+        for (int test = 1; test <= numberOfTests; test++) { // creates a conditional loop where all tests are added until there are no more tests
             testScore = doubleInput("Enter test score #" + test);
-            testScoreSum = testScoreSum + testScore;
+            testScoreSum = testScoreSum + testScore; //adds up test scores
         }
         testScoreAverage = testScoreSum / numberOfTests;
         System.out.println("Average score = " + testScoreAverage);

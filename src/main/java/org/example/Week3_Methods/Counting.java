@@ -11,7 +11,7 @@ public class Counting {
     }
 
     public static void count(int min, int max) {
-        for (int i = min; i <= max; i++) {
+        for (int i = min; i <= max; i++) { //conditional loop that starts with min value and ends with max
             System.out.println(i);
         }
     }
